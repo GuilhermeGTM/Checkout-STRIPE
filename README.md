@@ -15,7 +15,7 @@ Além disso, o sistema registra pedidos no banco de dados e possibilita reembols
 
 ![Web 1](https://github.com/GuilhermeGTM/Checkout-STRIPE/blob/main/git/3.png)
 
-
+---
 
 # ⚙️ Tecnologias Utilizadas
 - **Python 3**
@@ -23,10 +23,12 @@ Além disso, o sistema registra pedidos no banco de dados e possibilita reembols
 - **Stripe API** (integração de pagamentos)
 - **HTML / CSS / JavaScript** (frontend com Stripe Elements)
 
-
+---
 
 ## DB
 - SQLite3
+
+---
 
 ## 🚀 Funcionalidades
 - Cadastro e exibição de produtos.
@@ -52,6 +54,8 @@ baixando as dependencias
 -->python manage.py runserver
 Configurar as chaves no settings
 ```
+
+---
 
 # Autor
 
