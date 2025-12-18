@@ -1,0 +1,22 @@
+stripe  - responsavel para requisição para stripe
+python-decouple - gerencia as credenciais 
+
+
+instalando cli  e fazendo login
+https://docs.stripe.com/stripe-cli/install?install-method=linux
+
+
+cria uma conexão do stripe com meu servidor local
+./stripe listen --forward-to localhost:8000/stripe_webhook
+
+
+curl -X POST \
+    -H "Content-Type: application/json" \
+    --data '{type: "checkout.session.completed" }' \
+    -is http://localhost:8000/stripe_webhook
+
+
+
+
+
+
