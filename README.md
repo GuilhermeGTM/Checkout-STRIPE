@@ -31,13 +31,17 @@ Além disso, o sistema registra pedidos no banco de dados e possibilita reembols
 ---
 
 ## 🚀 Funcionalidades
-- Cadastro e exibição de produtos.
-- Criação de **PaymentIntent** no Stripe com valor e metadados do cliente.
-- Formulário de checkout com Stripe Elements para captura de dados do cartão.
-- Webhook para receber notificações de eventos do Stripe (ex.: `charge.succeeded`).
-- Registro automático de pedidos no banco de dados com status e valor pago.
-- Ação personalizada no **Django Admin** para reembolsar clientes via Stripe.
-- Feedback visual ao usuário (mensagens de sucesso/erro e loading spinner).
+
+| Funcionalidade | Descrição |
+|----------------|-----------|
+| Cadastro e exibição de produtos | Permite cadastrar produtos e exibi-los na aplicação. |
+| Criação de **PaymentIntent** | Gera um PaymentIntent no Stripe com valor e metadados do cliente. |
+| Formulário de checkout | Usa Stripe Elements para capturar dados do cartão de forma segura. |
+| Webhook Stripe | Recebe notificações de eventos do Stripe (ex.: `charge.succeeded`). |
+| Registro de pedidos | Salva pedidos no banco de dados com status e valor pago. |
+| Reembolso no Admin | Ação personalizada no Django Admin para reembolsar clientes via Stripe. |
+| Feedback visual | Exibe mensagens de sucesso/erro e spinner de carregamento para o usuário. |
+
 
 ---
 
